@@ -39,12 +39,8 @@ logger = logging.getLogger(__name__)
 BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN")
 BOT_TOKEN_2 = os.environ.get("TELEGRAM_BOT_TOKEN_2")
 OTP_FORWARD_CHAT_ID = os.environ.get("OTP_FORWARD_CHAT_ID", "").strip()
-GROUP_INVITE_URL = "https://t.me/+YhxYZPfnKnhlMTc1"
-DEFAULT_CHANNELS = [
-    {"id": "@AjkerIncomeSite", "url": "https://t.me/AjkerIncomeSite", "label": "📢 চ্যানেলে জয়েন"},
-    {"id": "@facebookbuy7", "url": "https://t.me/facebookbuy7", "label": "📢 ফেসবুক বাই চ্যানেলে জয়েন"},
-    {"external_key": "youtube_next_income", "url": "https://youtube.com/@next_income_source", "label": "📺 YouTube চ্যানেলে সাবস্ক্রাইব"},
-]
+GROUP_INVITE_URL = "https://t.me/+DlbCY5LVtWEyMzVl"
+DEFAULT_CHANNELS = []
 
 
 def _required_chats(context=None):
